@@ -13,38 +13,63 @@ const Content = () => {
     const [friend, setFriend] = useState([]);
     const [block, setBlock] = useState([]);
 
-    const addFriend = (person) => {
-        const searchFriend = friend.find(friend => friend = person);
-        const searchBlock = block.find(friend => friend = person);
-        if(person === searchFriend) {
-            alert("This person is already included in the friend list")
-        } else if (person === searchBlock) {
-            let confirmation = confirm("You have blocked this user previously. Do you want to unblock?");
-            if (confirmation === true) {
-                const newFriend = [...friend, person];
-                setFriend(newFriend);
+    
+    function searchFriends(person) {
+     for(let i=0; i<friend.length; i++) {
+         if(friend[i] === person) {
+             return true;
+         } else {
+             return false;
+         }
+     }   
+    }
+
+    function searchBlock(person) {
+        for(let i=0; i<block.length; i++) {
+            if(block[i] === person) {
+                return true;
             } else {
-                alert("The user is kept blocked");
+                return false;
             }
-        }
+        }   
+       }
+
+    const addFriend = (person) => {
+        if(searchFriends(person) === true) {
+            alert("Already in Friend list")
+        } else if (searchBlock(person) === true) {
+            alert("User is in block list"); 
+        } else {
+            const newFriend = [...friend, person];
+            setFriend(newFriend);  
+        } 
     }
 
     const blockUser = (person) => {
-        console.log("User blocked", person);
+        if(searchFriends(person) === true) {
+            alert("User is in Friend list")
+        } else if (searchBlock(person) === true) {
+            alert("Already in block list"); 
+        } else {
+            const newBlock = [...block, person];
+            setBlock(newBlock);  
+        } 
     }
+        
+
     return (
         <div className="container">
             <div className='users-container'> 
                 {
-                    user.map(user => <Users user = { user } addFriend = { addFriend } blockUser = {blockUser}> </Users>)
+                    user.map(user => <Users user = { user } addFriend = {addFriend} blockUser = {blockUser} > </Users>)
                 }
             </div>
 
             <div className ='summary-container'>
-                <ZoneInfo friend = {friend} block = {block}></ZoneInfo>
+            <ZoneInfo users = {users} friend = {friend} block = {block}></ZoneInfo>
             </div>
         </div>
     );
-};
+}
 
 export default Content;
