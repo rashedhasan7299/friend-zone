@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+
+.users-container {
+    width: 80%;
+}
+
+.summary-container {
+    width: 20%
+}
