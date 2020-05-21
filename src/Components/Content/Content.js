@@ -12,27 +12,28 @@ const Content = () => {
     const [user, setuser] = useState(allUsers);
     const [friend, setFriend] = useState([]);
     const [block, setBlock] = useState([]);
-
+    const [salary, setSalary] = useState([]);
     
     function searchFriends(person) {
-     for(let i=0; i<friend.length; i++) {
-         if(friend[i] === person) {
-             return true;
-         } else {
-             return false;
-         }
-     }   
-    }
+        const index = friend.indexOf(person)
+        if (index > -1) {
+        return true;
+        }
+        else {
+        return false;
+        }
+        }
+        function searchBlock(person) {
+        const index = block.indexOf(person)
+        if (index > -1) {
+        return true;
+        }
+        else {
+        return false;
+        }
+        }
 
-    function searchBlock(person) {
-        for(let i=0; i<block.length; i++) {
-            if(block[i] === person) {
-                return true;
-            } else {
-                return false;
-            }
-        }   
-       }
+
 
     const addFriend = (person) => {
         if(searchFriends(person) === true) {
@@ -41,7 +42,12 @@ const Content = () => {
             alert("User is in block list"); 
         } else {
             const newFriend = [...friend, person];
-            setFriend(newFriend);  
+            setFriend(newFriend);
+            let newSalary = []
+            newFriend.map((friend) => newSalary.push(parseInt(friend.annual_salary)));
+            let allSalary = 0;
+            newSalary.map((salary) => allSalary + salary);
+            setSalary(allSalary);
         } 
     }
 
@@ -66,7 +72,7 @@ const Content = () => {
             </div>
 
             <div className ='summary-container'>
-            <ZoneInfo users = {users} friend = {friend} block = {block}></ZoneInfo>
+            <ZoneInfo users = {users} friend = {friend} block = {block} salary = {salary}></ZoneInfo>
             </div>
         </div>
     );

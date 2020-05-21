@@ -6,7 +6,8 @@ var users = [{
   "gender": "Female",
   "ip_address": "99.48.196.109",
   "image": "https://2.bp.blogspot.com/-F7sUHf17U5I/WI1niCUhcwI/AAAAAAAAFmM/ABZ3MfcGJd8I6G_hvnPdLyoOQpses8rFQCLcB/s1600/New%2BUK%2B%2BFake%2BPhoto%2BGenaretor%2B%25289%2529.jpg",
-  "phone": "150-923-8100"
+  "phone": "150-923-8100",
+  "annual_salary": "79000"
 }, {
   "id": 2,
   "first_name": "Tilly",
@@ -14,7 +15,8 @@ var users = [{
   "email": "tabrashkin1@quantcast.com",
   "gender": "Female",
   "ip_address": "74.86.248.233",
-  "image": "https://3.bp.blogspot.com/-ihPKFyepJiU/WI1nhnijd_I/AAAAAAAAFmE/nJ3mzIh7a-YKV0NH4kbvKdZVApWqg42IACLcB/s1600/New%2BUK%2B%2BFake%2BPhoto%2BGenaretor%2B%252810%2529.jpg"
+  "image": "https://3.bp.blogspot.com/-ihPKFyepJiU/WI1nhnijd_I/AAAAAAAAFmE/nJ3mzIh7a-YKV0NH4kbvKdZVApWqg42IACLcB/s1600/New%2BUK%2B%2BFake%2BPhoto%2BGenaretor%2B%252810%2529.jpg",
+  "annual_salary": "57000"
 }, {
   "id": 3,
   "first_name": "Pamelina",
@@ -23,7 +25,8 @@ var users = [{
   "gender": "Female",
   "ip_address": "113.138.87.238",
   "image": "https://4.bp.blogspot.com/-pNUDcQaen68/WI1njataKSI/AAAAAAAAFmg/Hm9yTO5eUVItaLALEHx2QDANvVPQffiqwCLcB/s1600/New%2BUK%2B%2BFake%2BPhoto%2BGenaretor.jpg",
-  "phone": "532-827-5172"
+  "phone": "532-827-5172",
+  "annual_salary": "64000"
 }, {
   "id": 4,
   "first_name": "Nerte",
@@ -32,7 +35,8 @@ var users = [{
   "gender": "Female",
   "ip_address": "78.115.10.220",
   "image": "https://2.bp.blogspot.com/-ogCCayOxeAA/WIXJ34JEMXI/AAAAAAAAFDs/NdxQZKPuY_8USjWmGjOHOw688qnDf-UmACLcB/s1600/Alexandra%2BBreckenridge.jpg",
-  "phone": "283-518-3184"
+  "phone": "283-518-3184",
+  "annual_salary": "71000"
 }, {
   "id": 5,
   "first_name": "Aloysia",
@@ -41,7 +45,8 @@ var users = [{
   "gender": "Female",
   "ip_address": "201.191.215.36",
   "image": "https://3.bp.blogspot.com/-jMQSXLzOyH8/WIXJ4dNOFQI/AAAAAAAAFDo/OCR7gVJa65ojQfloneeYfhxPeKt0F3V2QCLcB/s1600/Alexandra_Breckenridge_Latest_Photo.jpg",
-  "phone": "532-219-6499"
+  "phone": "532-219-6499",
+  "annual_salary": "88000"
 }, {
   "id": 6,
   "first_name": "Bernarr",
@@ -50,7 +55,8 @@ var users = [{
   "gender": "Male",
   "ip_address": "212.185.50.99",
   "image": "https://4.bp.blogspot.com/-kICMOG7POOI/WH4aeXYuJII/AAAAAAAAEjQ/SQ0u7CshS3cdyt5u-ZlcG5YilYq2dcGLwCLcB/s1600/Adam_Richman_latest_Photo2017.jpg",
-  "phone": "259-590-3946"
+  "phone": "259-590-3946",
+  "annual_salary": "60000"
 }, {
   "id": 7,
   "first_name": "Alyce",
@@ -59,7 +65,8 @@ var users = [{
   "gender": "Female",
   "ip_address": "168.148.69.217",
   "image": "https://4.bp.blogspot.com/-xZF1X6c0tcU/WH8UhaX35xI/AAAAAAAAEjs/EXsSml2fg4g_bxv-t9I7IJLA-pXYITjQACLcB/s1600/New%2BUK%2B%2BFake%2BPhoto%2BGenaretor%2B%25284%2529.jpg",
-  "phone": "838-216-3250"
+  "phone": "838-216-3250",
+  "annual_salary": "50000"
 }, {
   "id": 8,
   "first_name": "Valma",
@@ -68,7 +75,8 @@ var users = [{
   "gender": "Female",
   "ip_address": "85.22.138.64",
   "image": "https://2.bp.blogspot.com/-CG0wAMWs3Fc/WH4ZNZyO9eI/AAAAAAAAEiA/xIoDgcrRLlUy8Xsktdg1vvcqFJkOyiI2wCLcB/s1600/Adele_Exarchopoulos_Latest_Photo2017.jpg",
-  "phone": "798-446-1989"
+  "phone": "798-446-1989",
+  "annual_salary": "100000"
 }, {
   "id": 9,
   "first_name": "Hedy",
@@ -77,7 +85,8 @@ var users = [{
   "gender": "Female",
   "ip_address": "230.91.74.20",
   "image": "https://3.bp.blogspot.com/-VdpGduu5ZsA/WH4ZRABfGCI/AAAAAAAAEiU/n13DIsq_WiYh6kMdQ0OdiK8jpcI4T197ACLcB/s1600/Movie_Blue_Is%2BThe_Warmest_Colour.jpg",
-  "phone": "842-606-5548"
+  "phone": "842-606-5548",
+  "annual_salary": "90000"
 }, {
   "id": 10,
   "first_name": "Walliw",
@@ -86,7 +95,8 @@ var users = [{
   "gender": "Male",
   "ip_address": "43.86.132.69",
   "image": "https://2.bp.blogspot.com/-i4wxWTLh-uA/WH4acMJt4MI/AAAAAAAAEi4/nQvA5r_XYdEp1bxcfm09o1VD3BNokVeiwCLcB/s1600/Adam_Richman_Mobile_HD_Photo.jpg",
-  "phone": "446-953-5893"
+  "phone": "446-953-5893",
+  "annual_salary": "55000"
 }, {
   "id": 11,
   "first_name": "Darline",
@@ -95,7 +105,8 @@ var users = [{
   "gender": "Male",
   "ip_address": "49.7.82.178",
   "image": "https://2.bp.blogspot.com/-wrwl0KZ8LPw/WHne40n_z2I/AAAAAAAAEYE/6d7VGTBtMI45GWRRUUPmwcxPqx9ckUQ5QCLcB/s1600/10649838_955748341107249_2570494527385598116_n.jpg",
-  "phone": "841-667-7172"
+  "phone": "841-667-7172",
+  "annual_salary": "60000"
 }, {
   "id": 12,
   "first_name": "Tallie",
@@ -104,7 +115,8 @@ var users = [{
   "gender": "Male",
   "ip_address": "74.186.202.247",
   "image": "https://1.bp.blogspot.com/-6Av6tC6Jst4/WHne4kzbL0I/AAAAAAAAEX8/owFMzgy5zlU1CVMdN-7Bo4-neOpsge_nQCLcB/s1600/10671418_908842685899431_7474987249626146206_n.jpg",
-  "phone": "888-258-3096"
+  "phone": "888-258-3096",
+  "annual_salary": "78000"
 }, {
   "id": 13,
   "first_name": "Philip",
@@ -113,7 +125,8 @@ var users = [{
   "gender": "Male",
   "ip_address": "251.14.3.85",
   "image": "https://3.bp.blogspot.com/-XsPyvQn9Kdk/WHnbSzkNfeI/AAAAAAAAEXE/OpWr6zFL4MM5KePWgjf5qr7Ft6O9tSPRQCLcB/s1600/10390495_861930357239595_1917892730334582013_n.jpg",
-  "phone": "774-276-0060"
+  "phone": "774-276-0060",
+  "annual_salary": "85000"
 }, {
   "id": 14,
   "first_name": "Jasun",
@@ -122,7 +135,8 @@ var users = [{
   "gender": "Male",
   "ip_address": "132.52.113.183",
   "image": "https://1.bp.blogspot.com/-opB2sSkxd0g/WHnY5Xhcy3I/AAAAAAAAEWU/gGiqqks1RuU-FW-2s_So0FZICo1RYRBZACLcB/s1600/1000929_10151814058433622_1886648339_n.jpg",
-  "phone": "537-348-2513"
+  "phone": "537-348-2513",
+  "annual_salary": "70000"
 }, {
   "id": 15,
   "first_name": "Hoebart",
@@ -131,7 +145,8 @@ var users = [{
   "gender": "Male",
   "ip_address": "161.82.110.59",
   "image": "https://4.bp.blogspot.com/-5h-aDZsPvrQ/WHRqMnr9otI/AAAAAAAADPs/EkhsBj9oAvQM4KzXAgDcp8vNzl5hNPHigCLcB/s1600/00001%2B%252816%2529.jpg",
-  "phone": "237-269-0064"
+  "phone": "237-269-0064",
+  "annual_salary": "91000"
 }];
 
 export default users;
